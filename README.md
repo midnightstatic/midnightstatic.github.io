@@ -1,2 +1,0 @@
-midnightstatic.github.io
-========================
