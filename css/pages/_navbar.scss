@@ -9,6 +9,10 @@ nav {
     -o-transition: background-color 500ms ease;
     transition: background-color 500ms ease;
 
+    .left-nav {
+
+    	float:left;
+
 		a {
 			text-decoration: none;
 			position: relative;
@@ -65,4 +69,19 @@ nav {
 			-moz-transform: translateX(-50%) translateY(-50%) scale(1);
 			transform: translateX(-50%) translateY(-50%) scale(1);
 		}
+	}
+
+	.social {
+		float: right;
+		color: #fff;
+
+		a {
+			color: #fff;
+			margin-left: 10px;
+			-webkit-transition: color 500ms ease;
+    		-moz-transition: color 500ms ease;
+    		-o-transition: color 500ms ease;
+    		transition: color 500ms ease;
+		}
+	}
 }

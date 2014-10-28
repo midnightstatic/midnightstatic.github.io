@@ -22,7 +22,7 @@ p {
 
 	h1 {
 		text-indent: -9999px;
-		background: url('images/header-logo.png') no-repeat;
+		background: url('../images/header-logo.png') no-repeat;
 		font-family: $secondary-font;
 		display: block;
 		width: 525px;
@@ -38,7 +38,7 @@ p {
 		text-align: center;
 	}
 
-	background: url('images/header-bg.jpg') no-repeat center center fixed;
+	background: url('../images/header-bg.jpg') no-repeat center center fixed;
 	background-size: cover;
 	background-color: #000;
 	padding-top: 150px;
