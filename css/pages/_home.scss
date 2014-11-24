@@ -21,13 +21,15 @@ p {
 #header {
 
 	h1 {
-		text-indent: -9999px;
-		background: url('../images/header-logo.png') no-repeat;
-		font-family: $secondary-font;
-		display: block;
-		width: 525px;
-		height: 318px;
 		margin: auto;
+
+		img {
+
+			@media screen and (max-width: 525px) {
+				width: 90%;
+				height: auto;
+			}
+		}
 	}
 
 	p {
