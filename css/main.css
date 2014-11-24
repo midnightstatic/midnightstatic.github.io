@@ -259,7 +259,9 @@ h1 {
 
 p {
   font-size: 18px;
-  line-height: 30px; }
+  line-height: 30px;
+  margin: 0;
+  padding: 0; }
 
 #header {
   background: url("../images/header-bg.jpg") no-repeat center center fixed;
@@ -390,7 +392,8 @@ nav {
       color: #6a37c6; }
   #responsive-nav p {
     text-align: right;
-    margin-right: 20px; }
+    margin-right: 20px;
+    padding: 20px 0; }
 
 footer {
   background: #111;
