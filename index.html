@@ -28,10 +28,10 @@
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
           $(".main").css('background-color', '#f0f0f0');
-          $("a").css('color', '#160344');
+          $(".amain").css('color', '#160344');
        } else {
           $('.main').css('background-color', 'transparent');
-          $("a").css('color', '#fff');
+          $(".amain").css('color', '#fff');
        }
    });
     }
@@ -54,11 +54,11 @@
 <body>
 	<nav class="main">  
 		<div class="left-nav">  
-			<a href="#header">Home</a>    
-	      	<a href="#music">Music</a>
-	      	<a href="#about">About</a>
-	      	<a href="#shows">Shows</a>
-	      	<a href="#contact">Contact</a>
+			<a href="#header" class="amain">Home</a>    
+	      	<a href="#music" class="amain">Music</a>
+	      	<a href="#about" class="amain">About</a>
+	      	<a href="#shows" class="amain">Shows</a>
+	      	<a href="#contact" class="amain">Contact</a>
       	</div>
 
       	<div class="social">
