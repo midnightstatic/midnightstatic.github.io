@@ -45,6 +45,10 @@ p {
 	background-color: #000;
 	padding-top: 150px;
 	height: 675px;
+
+	@media screen and (max-width: 525px) {
+		height: 400px;
+	}
 }
 
 #music, #about, #shows, #contact {
