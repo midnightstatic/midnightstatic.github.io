@@ -266,7 +266,7 @@ p {
   background-size: cover;
   background-color: #000;
   padding-top: 150px;
-  height: 675px; }
+  padding-bottom: 100px; }
   #header h1 {
     margin: auto; }
     @media screen and (max-width: 525px) {
@@ -279,9 +279,6 @@ p {
     margin: auto;
     margin-top: 30px;
     text-align: center; }
-  @media screen and (max-width: 525px) {
-    #header {
-      height: 400px; } }
 
 #music, #about, #shows, #contact {
   padding: 50px;
