@@ -18,6 +18,23 @@
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 
+	<script>
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+        </script>
+
 	<script type="text/javascript">
 	$(document).ready(function(){       
    var scroll_start = 0;
