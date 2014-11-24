@@ -37,6 +37,19 @@
     }
 });
 	</script>
+	  <script>
+        $(document).ready(function() {
+            $(".responsive").hide();
+            $(".menu").on("click", function(){
+                $(".responsive").fadeToggle();
+                event.preventDefault();
+                });
+            $(".nav-item").on("click", function() {
+                $(".responsive").hide();
+                event.preventDefault();
+            });
+        });
+</script>
 </head>
 <body>
 	<nav class="main">  
@@ -56,6 +69,16 @@
       		<a href="https://vimeo.com/midnightstatic"><i class="fa fa-vimeo-square fa-lg"></i></a>
       	</div>
 	</nav>
+	<div id="responsive-nav">
+            <p><a href="#" class="menu">MENU</a></p>
+            <ul class="responsive">
+                <li><a href="#header" class="nav-item">Home</a></li> 
+	      		<li><a href="#music" class="nav-item">Music</a></li> 
+	      		<li><a href="#about" class="nav-item">About</a></li> 
+	      		<li><a href="#shows" class="nav-item">Shows</a></li> 
+	      		<li><a href="#contact" class="nav-item">Contact</a></li> 
+            </ul>
+        </div>
 
 <div class="container">
 	<section id="header">

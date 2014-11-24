@@ -27,8 +27,8 @@ audio:not([controls]) {
 
 html {
   font-size: 100%;
-  background: white;
-  color: black;
+  background: #fff;
+  color: #000;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -356,6 +356,43 @@ nav {
       -moz-transition: color 500ms ease;
       -o-transition: color 500ms ease;
       transition: color 500ms ease; }
+  @media screen and (max-width: 710px) {
+    nav {
+      display: none; } }
+
+#responsive-nav {
+  display: none;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #fff; }
+  @media screen and (max-width: 710px) {
+    #responsive-nav {
+      display: inline; } }
+  #responsive-nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background: #fff;
+    width: 100%; }
+  #responsive-nav li {
+    padding: 15px;
+    border-top: 1px solid #ebebeb; }
+  #responsive-nav a {
+    text-decoration: none;
+    color: #6a37c6; }
+    #responsive-nav a:visited {
+      color: #6a37c6; }
+  #responsive-nav p {
+    text-align: right;
+    margin-right: 20px; }
 
 footer {
   background: #111;
@@ -366,3 +403,5 @@ footer {
     color: #555;
     text-align: center;
     margin: auto; }
+
+/*# sourceMappingURL=main.css.map */
