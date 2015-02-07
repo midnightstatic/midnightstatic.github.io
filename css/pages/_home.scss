@@ -16,18 +16,22 @@ h1 {
 p {
 	font-size: 18px;
 	line-height: 30px;
+	margin: 0;
+	padding: 0;
 }
 
 #header {
 
 	h1 {
-		text-indent: -9999px;
-		background: url('../images/header-logo.png') no-repeat;
-		font-family: $secondary-font;
-		display: block;
-		width: 525px;
-		height: 318px;
 		margin: auto;
+
+		img {
+
+			@media screen and (max-width: 525px) {
+				width: 90%;
+				height: auto;
+			}
+		}
 	}
 
 	p {
@@ -42,11 +46,13 @@ p {
 	background-size: cover;
 	background-color: #000;
 	padding-top: 150px;
-	height: 675px;
+	padding-bottom: 100px;
+
+	
 }
 
 #music, #about, #shows, #contact {
-	padding: 50px;
+	padding: 50px 10px;
 	text-align: center;
 }
 

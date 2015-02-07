@@ -123,15 +123,16 @@ nav {
 
 	a {
 		text-decoration: none;
-		color: $purple;
+		color: $dark-purple;
 
 		&:visited {
-			color: $purple;
+			color: $dark-purple;
 		}
 	}
 
 	p {
 		text-align: right;
 		margin-right: 20px;
+		padding: 20px 0;
 	}
 }
