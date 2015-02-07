@@ -286,6 +286,14 @@ p {
   padding: 50px 10px;
   text-align: center; }
 
+#about {
+  color: #fff;
+  background: url("../images/ms_photo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 500px; }
+  #about h1 {
+    color: #fff; }
+
 nav {
   position: fixed;
   top: 0;
