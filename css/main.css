@@ -306,7 +306,7 @@ p {
 
 #about {
   color: #fff;
-  background: url("../images/ms_photo.jpg") no-repeat top center fixed;
+  background: url("../images/ms_photo.jpg") no-repeat top center scroll;
   background-size: cover;
   height: 500px;
   padding-top: 150px; }
