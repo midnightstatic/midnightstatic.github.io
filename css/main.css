@@ -290,7 +290,8 @@ p {
   color: #fff;
   background: url("../images/ms_photo.jpg") no-repeat top center fixed;
   background-size: cover;
-  height: 500px; }
+  height: 500px;
+  padding-top: 150px; }
   #about h1 {
     color: #fff; }
   #about p {
