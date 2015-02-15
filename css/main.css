@@ -256,12 +256,19 @@ h1 {
   font-size: 60px;
   margin: auto;
   text-align: center; }
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 36px; } }
 
 p {
   font-size: 18px;
   line-height: 30px;
   margin: 0;
   padding: 0; }
+  @media screen and (max-width: 500px) {
+    p {
+      font-size: 14px;
+      line-height: 20px; } }
 
 #header {
   background: url("../images/header-bg.jpg") no-repeat center center fixed;
@@ -285,8 +292,14 @@ p {
 #music, #about, #shows, #contact {
   padding: 50px 10px;
   text-align: center; }
+  @media screen and (max-width: 500px) {
+    #music, #about, #shows, #contact {
+      padding: 30px 10px; } }
   #music h1, #about h1, #shows h1, #contact h1 {
     margin-bottom: 25px; }
+    @media screen and (max-width: 500px) {
+      #music h1, #about h1, #shows h1, #contact h1 {
+        margin-bottom: 15px; } }
 
 #music iframe {
   width: 75%; }
@@ -295,13 +308,19 @@ p {
   color: #fff;
   background: url("../images/ms_photo.jpg") no-repeat top center fixed;
   background-size: cover;
-  height: 500px;
-  padding-top: 150px; }
+  height: 300px;
+  padding-top: 75px; }
+  @media screen and (max-width: 500px) {
+    #about {
+      padding-top: 40px; } }
   #about h1 {
     color: #fff; }
   #about p {
     width: 75%;
     margin: auto; }
+    @media screen and (max-width: 500px) {
+      #about p {
+        width: 85%; } }
 
 nav {
   position: fixed;
