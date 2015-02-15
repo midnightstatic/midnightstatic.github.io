@@ -294,7 +294,8 @@ p {
   #about h1 {
     color: #fff; }
   #about p {
-    width: 75%; }
+    width: 75%;
+    margin: auto; }
 
 nav {
   position: fixed;
