@@ -285,6 +285,8 @@ p {
 #music, #about, #shows, #contact {
   padding: 50px 10px;
   text-align: center; }
+  #music h1, #about h1, #shows h1, #contact h1 {
+    margin-bottom: 15px; }
 
 #about {
   color: #fff;
