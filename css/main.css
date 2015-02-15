@@ -293,6 +293,8 @@ p {
   height: 500px; }
   #about h1 {
     color: #fff; }
+  #about p {
+    width: 75%; }
 
 nav {
   position: fixed;
