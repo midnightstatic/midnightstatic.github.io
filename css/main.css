@@ -260,6 +260,13 @@ h1 {
     h1 {
       font-size: 36px; } }
 
+a {
+  color: #5015bd; }
+  a:hover {
+    color: #651fe6; }
+  a:visited {
+    color: #5015bd; }
+
 p {
   font-size: 18px;
   line-height: 30px;
