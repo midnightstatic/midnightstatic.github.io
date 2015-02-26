@@ -67,7 +67,7 @@ p {
 		text-align: center;
 	}
 
-	background-color: #000;
+	background-color: $dark-purple;
 	height: 600px;
 	width: 100%;
 	position: relative;
@@ -173,7 +173,7 @@ p {
 }
 
 .stars {
-  background:#000 url(../images/stars.png) repeat top center;
+  background:#160344 url(../images/stars.png) repeat top center;
   z-index:0;
 }
 
