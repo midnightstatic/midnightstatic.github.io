@@ -526,7 +526,7 @@ nav {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background: #fff; }
+  background: rgba(255, 255, 255, 0.9); }
   @media screen and (max-width: 710px) {
     #responsive-nav {
       display: inline; } }
@@ -537,7 +537,7 @@ nav {
     margin: 0;
     text-align: center;
     padding: 0;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     width: 100%; }
   #responsive-nav li {
     padding: 15px;
