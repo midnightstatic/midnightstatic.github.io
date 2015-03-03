@@ -306,10 +306,20 @@ p {
         height: 169px; } }
   #header p {
     color: #fff;
-    width: 500px;
+    position: relative;
+    z-index: 20;
+    width: 620px;
     margin: auto;
-    margin-top: 30px;
+    top: 520px;
     text-align: center; }
+    @media screen and (max-width: 620px) {
+      #header p {
+        width: 450px;
+        top: 390px; } }
+    @media screen and (max-width: 450px) {
+      #header p {
+        width: 350px;
+        top: 340px; } }
   @media screen and (max-width: 610px) {
     #header {
       height: 450px; } }
