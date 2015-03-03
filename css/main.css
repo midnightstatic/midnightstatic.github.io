@@ -250,10 +250,8 @@ body {
 h1 {
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
-  font-style: italic;
   color: #160344;
-  font-size: 60px;
+  font-size: 50px;
   margin: auto;
   text-align: center; }
   @media screen and (max-width: 500px) {
@@ -466,10 +464,9 @@ nav {
       margin-right: 20px;
       font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
       font-weight: bold;
-      font-style: italic;
       text-transform: uppercase;
       list-style-type: none;
-      font-size: 20px;
+      font-size: 18px;
       -webkit-transition: color 500ms ease;
       -moz-transition: color 500ms ease;
       -o-transition: color 500ms ease;
