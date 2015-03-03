@@ -320,6 +320,9 @@ p {
       #header p {
         width: 350px;
         top: 340px; } }
+    @media screen and (max-width: 400px) {
+      #header p {
+        width: 280px; } }
   @media screen and (max-width: 610px) {
     #header {
       height: 450px; } }

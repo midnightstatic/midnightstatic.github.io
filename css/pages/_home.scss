@@ -85,6 +85,10 @@ p {
 			width: 350px;
 			top: 340px;
 		}
+
+		@media screen and (max-width: 400px) {
+			width: 280px;
+		}
 	}
 
 	background-color: $dark-purple;
