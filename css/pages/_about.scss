@@ -5,6 +5,10 @@
 	height: 500px;
 	padding-top: 220px;
 
+	@media screen and (max-width: 710px) {
+		margin-top: 40px;
+	}
+
 	@media screen and (max-width: 500px) {
 		height: 200px;
 		background: url('../images/ms_photo.jpg') no-repeat top center scroll;

@@ -399,6 +399,9 @@ p {
   background-size: cover;
   height: 500px;
   padding-top: 220px; }
+  @media screen and (max-width: 710px) {
+    #about {
+      margin-top: 40px; } }
   @media screen and (max-width: 500px) {
     #about {
       height: 200px;
