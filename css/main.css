@@ -305,6 +305,9 @@ p {
     margin: auto;
     margin-top: 30px;
     text-align: center; }
+  @media screen and (max-width: 610px) {
+    #header {
+      height: 450px; } }
 
 #music, #about, #shows, #contact {
   padding: 50px 10px;

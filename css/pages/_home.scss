@@ -80,6 +80,10 @@ p {
 	width: 100%;
 	position: relative;
 
+	@media screen and (max-width: 610px) {
+		height: 450px;
+	}
+
 	
 }
 
