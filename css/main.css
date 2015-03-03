@@ -552,6 +552,12 @@ nav {
     margin-right: 20px;
     padding: 20px 0; }
 
+.bandcamp {
+  display: inline-block;
+  background: url("../images/bc-logo.png");
+  width: 42px;
+  height: 13px; }
+
 footer {
   background: #111;
   width: 100%;

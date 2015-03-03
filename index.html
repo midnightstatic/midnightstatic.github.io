@@ -49,9 +49,11 @@
       if(scroll_start > offset.top) {
           $(".main").css('background-color', '#f0f0f0');
           $(".amain").css('color', '#160344');
+          $(".bandcamp").css('background-position', '0 -13px');
        } else {
           $('.main').css('background-color', 'transparent');
           $(".amain").css('color', '#fff');
+          $(".bandcamp").css('background-position', '0 0');
        }
    });
     }
@@ -98,6 +100,7 @@
       		<a href="http://www.twitter.com/12AMStatic" class="amain"><i class="fa fa-twitter fa-lg"></i></a>
       		<a href="https://soundcloud.com/midnightstaticband" class="amain"><i class="fa fa-soundcloud fa-lg"></i></a>
       		<a href="https://vimeo.com/midnightstatic" class="amain"><i class="fa fa-vimeo-square fa-lg"></i></a>
+          <a href="http://midnightstaticband.bandcamp.com/" class="amain bandcamp"></a>
       	</div>
 	</nav>
 	<div id="responsive-nav">
