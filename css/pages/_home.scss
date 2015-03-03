@@ -104,31 +104,10 @@ p {
 	}
 }
 
-#about {
-	color: #fff;
-	background: url('../images/ms_photo.jpg') no-repeat top center scroll;
-	background-size: cover;
-	height: 500px;
-	padding-top: 150px;
-
-	@media screen and (max-width: 500px) {
-		height: 300px;
-		padding-top: 40px;
-	}
-
-	h1 {
-		color: #fff;
-	}
-
-	p {
-		width: 75%;
-		margin: auto;
-
-		@media screen and (max-width: 500px) {
-			width: 85%;
-		}
-	}
+#shows {
+	background-color: #f0f0f0;
 }
+
 
 #music .video-container {
 	margin: auto;
