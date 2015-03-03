@@ -284,20 +284,22 @@ p {
   position: relative; }
   #header img {
     z-index: 15;
+    margin: auto;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 600px;
-    height: auto; }
+    height: 350px; }
     @media screen and (max-width: 610px) {
       #header img {
         width: 450px;
-        height: auto; } }
+        height: 263px; } }
     @media screen and (max-width: 450px) {
       #header img {
         width: 350px;
-        height: auto; } }
+        height: 204px; } }
   #header p {
     color: #fff;
     width: 500px;
