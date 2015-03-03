@@ -403,6 +403,7 @@ p {
     #about {
       height: 200px;
       background: url("../images/ms_photo.jpg") no-repeat top center scroll;
+      background-size: cover;
       padding-top: 40px; } }
   #about h1 {
     color: #fff; }
