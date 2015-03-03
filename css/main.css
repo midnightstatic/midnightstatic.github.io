@@ -401,7 +401,7 @@ p {
   padding-top: 220px; }
   @media screen and (max-width: 710px) {
     #about {
-      margin-top: 40px; } }
+      margin-top: 50px; } }
   @media screen and (max-width: 500px) {
     #about {
       height: 200px;
