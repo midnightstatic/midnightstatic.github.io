@@ -60,6 +60,11 @@ p {
 				width: 350px;
 				height: 204px;
 			}
+
+			@media screen and (max-width: 400px) {
+				width: 290px;
+				height: 169px;
+			}
 	}
 
 	p {

@@ -300,6 +300,10 @@ p {
       #header img {
         width: 350px;
         height: 204px; } }
+    @media screen and (max-width: 400px) {
+      #header img {
+        width: 290px;
+        height: 169px; } }
   #header p {
     color: #fff;
     width: 500px;
