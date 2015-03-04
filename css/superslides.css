@@ -1,10 +1,10 @@
-#slides {
+#slides-1, #slides-2 {
   position: relative;
 }
-#slides .slides-container {
+#slides-1 .slides-container, #slides-2 .slides-container {
   display: none;
 }
-#slides .scrollable {
+#slides-1 .scrollable, #slides-2 .scrollable {
   *zoom: 1;
   position: relative;
   top: 0;
@@ -13,7 +13,7 @@
   -webkit-overflow-scrolling: touch;
   height: 100%;
 }
-#slides .scrollable:after {
+#slides-1 .scrollable:after, #slides-2 .scrollable:after {
   content: "";
   display: table;
   clear: both;

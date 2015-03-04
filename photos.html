@@ -21,6 +21,13 @@
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+  // Hide div 2 by default
+  $('#slides-2').hide();
+});
+  </script>
 
 	<script>
         $(function() {
@@ -119,13 +126,13 @@
 	<section id="photos-header">
     <h1>Midnight Static Photos</h1>
     <div class="box">
-      <button class="button button--winona button--border-thin button--text-thick button--inverted" data-text="Press"><span>Press</span></button>
-      <button class="button button--winona button--border-thin button--text-thick button--inverted" data-text="Live"><span>Live</span></button>
+      <button class="button button--winona button--border-thin button--text-thick button--inverted" data-text="Press" id="press"><span>Press</span></button>
+      <button class="button button--winona button--border-thin button--text-thick button--inverted" data-text="Live" id="live"><span>Live</span></button>
     </div>
 	</section>
   <div id="color-change"></div>
 	<section id="gallery">
-    <div id="slides">
+    <div id="slides-1">
       <ul class="slides-container">
         <li>
           <img src="images/band-1.jpg" alt="">
@@ -135,6 +142,26 @@
         </li>
           <li>
           <img src="images/band-2.jpg" alt="">
+          <div class="container">
+            Photo credits
+          </div>
+        </li>
+      </ul>
+      <nav class="slides-navigation">
+        <a href="#" class="next">Next</a>
+        <a href="#" class="prev">Previous</a>
+      </nav>
+    </div>
+    <div id="slides-2">
+      <ul class="slides-container">
+        <li>
+          <img src="images/band-2.jpg" alt="">
+          <div class="container">
+            Photo credits
+          </div>
+        </li>
+          <li>
+          <img src="images/band-1.jpg" alt="">
           <div class="container">
             Photo credits
           </div>
@@ -156,9 +183,26 @@
   <script src="js/jquery.animate-enhanced.min.js"></script>
   <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
   <script>
-    $('#slides').superslides({
-      animation: 'fade'
+    $('#slides-1').superslides({
+      haschange: false
     });
+  </script>
+  <script type="text/javascript">
+   $('#live').click(function(){
+   $('#slides-2').superslides({
+      haschange: false
+    }); 
+      $('#slides-1').hide();
+      $('#slides-2').show();
+  });
+
+  $('#press').click(function(){ 
+    $('#slides-1').superslides({
+      haschange: false
+    });
+      $('#slides-2').hide();
+      $('#slides-1').show();
+  }); 
   </script>
 
 </body>
