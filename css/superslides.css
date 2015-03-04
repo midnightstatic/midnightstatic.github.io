@@ -4,6 +4,18 @@
 #slides-1 .slides-container, #slides-2 .slides-container {
   display: none;
 }
+
+.slides-container .container {
+  color: #fff;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 10px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+}
+
 #slides-1 .scrollable, #slides-2 .scrollable {
   *zoom: 1;
   position: relative;
