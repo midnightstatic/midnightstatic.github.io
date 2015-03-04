@@ -28,8 +28,20 @@
 }
 .slides-navigation a {
   position: absolute;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  background-color: #6a37c6;
+  padding: 10px 10px 8px 10px;
+  color: #fff;
+  text-decoration:none;
   display: block;
 }
+
+.slides-navigation a:hover {
+  background-color: #fff;
+  color: #6a37c6;
+}
+
 .slides-navigation a.prev {
   left: 0;
 }
@@ -38,6 +50,7 @@
 }
 
 .slides-pagination {
+  display: none;
   position: absolute;
   z-index: 3;
   top: 620px;

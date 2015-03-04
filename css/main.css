@@ -465,6 +465,9 @@ p {
         width: 85%; } }
   #photos-header .box {
     padding: 0;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
