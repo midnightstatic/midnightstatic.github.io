@@ -443,6 +443,104 @@ p {
     font-size: .9em;
     line-height: 1.7; }
 
+#photos-header {
+  color: #fff;
+  background-color: #6a37c6;
+  height: 400px;
+  padding: 150px 0;
+  text-align: center;
+  /* Common button styles */
+  /* Borders */
+  /* Winona */ }
+  @media screen and (max-width: 710px) {
+    #photos-header {
+      margin-top: 50px; } }
+  #photos-header h1 {
+    color: #fff; }
+  #photos-header p {
+    width: 75%;
+    margin: auto; }
+    @media screen and (max-width: 500px) {
+      #photos-header p {
+        width: 85%; } }
+  #photos-header .box {
+    padding: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  #photos-header .button {
+    float: left;
+    min-width: 150px;
+    max-width: 250px;
+    display: block;
+    margin: 1em;
+    border: none;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale; }
+  #photos-header .button:focus {
+    outline: none; }
+  #photos-header .button > span {
+    vertical-align: middle; }
+  #photos-header .button--border-thin {
+    border: 1px solid; }
+  #photos-header .button--text-thick {
+    font-weight: 600; }
+  #photos-header .button--winona {
+    overflow: hidden;
+    padding: 1em 2em;
+    position: relative;
+    -webkit-transition: border-color 0.3s, background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+  #photos-header .button--winona::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 13px;
+    left: 0;
+    opacity: 0;
+    color: #160344;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0); }
+  #photos-header .button--winona > span {
+    display: block; }
+  #photos-header .button--winona.button--inverted {
+    color: #fff; }
+  #photos-header .button--winona.button--inverted:after {
+    color: #160344; }
+  #photos-header .button--winona::after,
+  #photos-header .button--winona > span {
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+  #photos-header .button--winona:hover {
+    border-color: #160344;
+    background-color: none; }
+  #photos-header .button--winona.button--inverted:hover {
+    border-color: #160344;
+    background-color: none; }
+  #photos-header .button--winona:hover::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  #photos-header .button--winona:hover > span {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0); }
+
 nav {
   position: fixed;
   top: 0;
