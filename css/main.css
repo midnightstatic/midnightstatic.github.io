@@ -342,6 +342,28 @@ p {
   text-align: center;
   width: 100%;
   background-color: #160344; }
+  #newsletter h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+    text-align: center; }
+    @media screen and (max-width: 500px) {
+      #newsletter h1 {
+        font-size: 36px; } }
+  #newsletter p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 auto 20px;
+    width: 80%;
+    padding: 0; }
+    @media screen and (max-width: 500px) {
+      #newsletter p {
+        font-size: 14px;
+        line-height: 20px; } }
 
 #shows {
   background-color: #f0f0f0; }
